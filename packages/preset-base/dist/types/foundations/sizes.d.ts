@@ -1,0 +1,88 @@
+export declare const baseSizes: {
+    px: string;
+    0: string;
+    1: string;
+    2: string;
+    3: string;
+    4: string;
+    5: string;
+    6: string;
+    8: string;
+    10: string;
+    12: string;
+    16: string;
+    20: string;
+    24: string;
+    32: string;
+    40: string;
+    48: string;
+    56: string;
+    64: string;
+};
+export declare type BaseSizes = typeof baseSizes;
+declare const largeSizes: {
+    full: string;
+    "3xs": string;
+    "2xs": string;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    "2xl": string;
+    "3xl": string;
+    "4xl": string;
+    "5xl": string;
+    "6xl": string;
+};
+declare const containers: {
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+};
+declare const sizes: {
+    containers: {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+    };
+    full: string;
+    "3xs": string;
+    "2xs": string;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    "2xl": string;
+    "3xl": string;
+    "4xl": string;
+    "5xl": string;
+    "6xl": string;
+    px: string;
+    0: string;
+    1: string;
+    2: string;
+    3: string;
+    4: string;
+    5: string;
+    6: string;
+    8: string;
+    10: string;
+    12: string;
+    16: string;
+    20: string;
+    24: string;
+    32: string;
+    40: string;
+    48: string;
+    56: string;
+    64: string;
+};
+export declare type Sizes = typeof baseSizes & typeof largeSizes & {
+    containers: typeof containers;
+};
+export default sizes;
+//# sourceMappingURL=sizes.d.ts.map

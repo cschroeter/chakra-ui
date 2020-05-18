@@ -1,0 +1,1 @@
+{"version":3,"file":"Popper.utils.d.ts","sourceRoot":"","sources":["../../src/Popper.utils.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAE1C,QAAA,MAAM,kBAAkB;;;;;CAKvB,CAAA;AAED,aAAK,SAAS,GAAG,MAAM,OAAO,kBAAkB,CAAA;AAEhD,eAAO,MAAM,mBAAmB,aAAc,SAAS,WACzB,CAAA;AAK9B,wBAAgB,cAAc,CAC5B,SAAS,EAAE,SAAS,EACpB,SAAS,EAAE,MAAM,GAChB,KAAK,CAAC,aAAa,CAYrB"}

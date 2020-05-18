@@ -1,0 +1,1 @@
+{"version":3,"file":"color-mode.hook.d.ts","sourceRoot":"","sources":["../../src/color-mode.hook.ts"],"names":[],"mappings":";AAEA,OAAO,EAEL,SAAS,EAIV,MAAM,oBAAoB,CAAA;AAoC3B,UAAU,OAAO;IACf,gBAAgB,CAAC,EAAE,SAAS,CAAA;IAC5B,kBAAkB,CAAC,EAAE,OAAO,CAAA;CAC7B;AAED;;;GAGG;AACH,wBAAgB,iBAAiB,CAAC,CAAC,SAAS,OAAO,EAAE,OAAO,CAAC,EAAE,CAAC,6FA4B/D"}

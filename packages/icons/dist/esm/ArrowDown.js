@@ -1,0 +1,8 @@
+import { __assign } from "tslib";
+import * as React from "react";
+import { Icon } from "@chakra-ui/icon";
+export function ArrowDownIcon(props) {
+    return (React.createElement(Icon, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("path", { fill: "currentColor", d: "M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" })));
+}
+//# sourceMappingURL=ArrowDown.js.map

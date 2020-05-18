@@ -1,0 +1,1 @@
+{"version":3,"file":"useDisclosure.d.ts","sourceRoot":"","sources":["../../src/useDisclosure.ts"],"names":[],"mappings":"AAIA,MAAM,WAAW,kBAAkB;IACjC,MAAM,CAAC,EAAE,OAAO,CAAA;IAChB,aAAa,CAAC,EAAE,OAAO,CAAA;IACvB,OAAO,CAAC,IAAI,IAAI,CAAA;IAChB,MAAM,CAAC,IAAI,IAAI,CAAA;CAChB;AAED,wBAAgB,aAAa,CAAC,KAAK,GAAE,kBAAuB;;;;;;;EAmC3D;AAED,oBAAY,mBAAmB,GAAG,UAAU,CAAC,OAAO,aAAa,CAAC,CAAA"}

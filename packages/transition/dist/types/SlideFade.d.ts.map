@@ -1,0 +1,1 @@
+{"version":3,"file":"SlideFade.d.ts","sourceRoot":"","sources":["../../src/SlideFade.tsx"],"names":[],"mappings":";AACA,OAAO,EAAc,eAAe,EAAE,MAAM,cAAc,CAAA;AAE1D,MAAM,WAAW,cACf,SAAQ,IAAI,CAAC,eAAe,EAAE,QAAQ,GAAG,SAAS,CAAC;IACnD;;OAEG;IACH,aAAa,CAAC,EAAE,MAAM,CAAA;IACtB;;OAEG;IACH,OAAO,CAAC,EAAE,MAAM,CAAA;CACjB;AAmBD,eAAO,MAAM,SAAS,UAAW,cAAc,gBAa9C,CAAA"}

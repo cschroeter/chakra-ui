@@ -1,0 +1,1 @@
+{"version":3,"file":"Menu.transition.d.ts","sourceRoot":"","sources":["../../src/Menu.transition.tsx"],"names":[],"mappings":";AAAA,OAAO,EAEL,eAAe,EAEhB,MAAM,uBAAuB,CAAA;AAK9B,MAAM,WAAW,mBAAmB;IAClC,eAAe,CAAC,EAAE,MAAM,CAAA;IACxB,QAAQ,EAAE,eAAe,CAAC,UAAU,CAAC,CAAA;IACrC,MAAM,CAAC,EAAE,eAAe,CAAC,QAAQ,CAAC,CAAA;CACnC;AAED,eAAO,MAAM,cAAc,UAAW,mBAAmB,gBAiDxD,CAAA"}

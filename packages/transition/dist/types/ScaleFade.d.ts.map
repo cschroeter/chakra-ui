@@ -1,0 +1,1 @@
+{"version":3,"file":"ScaleFade.d.ts","sourceRoot":"","sources":["../../src/ScaleFade.tsx"],"names":[],"mappings":";AACA,OAAO,EAAc,eAAe,EAAE,MAAM,cAAc,CAAA;AAmB1D,oBAAY,cAAc,GAAG,IAAI,CAAC,eAAe,EAAE,QAAQ,GAAG,SAAS,CAAC,GAAG;IACzE,wCAAwC;IACxC,YAAY,CAAC,EAAE,MAAM,CAAA;IACrB,6BAA6B;IAC7B,OAAO,CAAC,EAAE,MAAM,CAAA;CACjB,CAAA;AAED,eAAO,MAAM,SAAS,UAAW,cAAc,gBAa9C,CAAA"}

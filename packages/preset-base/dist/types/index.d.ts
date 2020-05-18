@@ -1,0 +1,431 @@
+declare const theme: {
+    components: {
+        Accordion: import("./components/utils").ComponentTheme<{}>;
+        Button: import("./components/utils").ComponentTheme<{}>;
+        Heading: import("./components/utils").ComponentTheme<{}>;
+        Alert: import("./components/utils").ComponentTheme<{}>;
+        Badge: import("./components/utils").ComponentTheme<{}>;
+        Avatar: import("./components/utils").ComponentTheme<{
+            name?: string | undefined;
+        }>;
+        Link: import("./components/utils").ComponentTheme<{}>;
+        Code: import("./components/utils").ComponentTheme<{}>;
+        Spinner: import("./components/utils").ComponentTheme<{}>;
+        Menu: import("./components/utils").ComponentTheme<{}>;
+        Tabs: import("./components/utils").ComponentTheme<{}>;
+        Checkbox: import("./components/utils").ComponentTheme<{}>;
+        Radio: import("./components/utils").ComponentTheme<{}>;
+        Input: import("./components/Input").InputTheme;
+        InputAddon: {
+            sizes: {
+                [size: string]: string | import("@chakra-ui/parser/dist/types").SystemProps | {
+                    [component: string]: import("@chakra-ui/parser/dist/types").SystemProps;
+                } | ((props: import("./components/utils").Props & Required<{}>) => import("./components/utils").StyleProps);
+            };
+            variants: {
+                outline: (props: import("./components/utils").Props) => import("./components/utils").StyleProps;
+                filled: (props: import("./components/utils").Props) => import("./components/utils").StyleProps;
+                flushed: (props: import("./components/utils").Props) => import("./components/utils").StyleProps;
+                unstyled: {
+                    bg: string;
+                    paddingX: number;
+                    height: string;
+                };
+            };
+        };
+        Tooltip: import("./components/utils").ComponentTheme<{}>;
+        CloseButton: import("./components/utils").ComponentTheme<{}>;
+        Slider: import("./components/utils").ComponentTheme<{}>;
+        NumberInput: import("./components/utils").ComponentTheme<{}>;
+        Switch: import("./components/utils").ComponentTheme<{}>;
+        Tag: import("./components/utils").ComponentTheme<{}>;
+        Modal: import("./components/utils").ComponentTheme<{}>;
+        Kbd: import("./components/utils").ComponentTheme<{}>;
+        Select: import("./components/Input").InputTheme;
+        Textarea: import("./components/Input").InputTheme;
+        PinInput: import("./components/utils").ComponentTheme<import("./components/Input").InputProps>;
+        Popover: import("./components/utils").ComponentTheme<{}>;
+        Form: import("./components/utils").ComponentTheme<{}>;
+        Editable: import("./components/utils").ComponentTheme<{}>;
+        Progress: import("./components/utils").ComponentTheme<{
+            isIndeterminate?: boolean | undefined;
+        }>;
+        Stat: import("./components/utils").ComponentTheme<{}>;
+        Skeleton: import("./components/utils").ComponentTheme<import("./components/Skeleton").SkeletonProps>;
+    };
+    styles: import("./components/utils").Styles;
+    sizes: {
+        containers: {
+            sm: string;
+            md: string;
+            lg: string;
+            xl: string;
+        };
+        full: string;
+        "3xs": string;
+        "2xs": string;
+        xs: string;
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+        "2xl": string;
+        "3xl": string;
+        "4xl": string;
+        "5xl": string;
+        "6xl": string;
+        px: string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        32: string;
+        40: string;
+        48: string;
+        56: string;
+        64: string;
+    };
+    shadows: {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+        "2xl": string;
+        outline: string;
+        inner: string;
+        none: string;
+    };
+    space: {
+        px: string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        32: string;
+        40: string;
+        48: string;
+        56: string;
+        64: string;
+    };
+    borders: {
+        none: number;
+        "1px": string;
+        "2px": string;
+        "4px": string;
+    };
+    letterSpacings: {
+        tighter: string;
+        tight: string;
+        normal: string;
+        wide: string;
+        wider: string;
+        widest: string;
+    };
+    lineHeights: {
+        normal: string;
+        none: string;
+        shorter: string;
+        short: string;
+        base: string;
+        tall: string;
+        taller: string;
+    };
+    fontWeights: {
+        hairline: number;
+        thin: number;
+        light: number;
+        normal: number;
+        medium: number;
+        semibold: number;
+        bold: number;
+        extrabold: number;
+        black: number;
+    };
+    fonts: {
+        heading: string;
+        body: string;
+        mono: string;
+    };
+    fontSizes: {
+        xs: string;
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+        "2xl": string;
+        "3xl": string;
+        "4xl": string;
+        "5xl": string;
+        "6xl": string;
+    };
+    breakpoints: {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+    };
+    zIndices: {
+        hide: number;
+        auto: string;
+        base: number;
+        docked: number;
+        dropdown: number;
+        sticky: number;
+        banner: number;
+        overlay: number;
+        modal: number;
+        popover: number;
+        skipLink: number;
+        toast: number;
+        tooltip: number;
+    };
+    radii: {
+        none: string;
+        sm: string;
+        md: string;
+        lg: string;
+        full: string;
+    };
+    colors: {
+        transparent: string;
+        current: string;
+        black: string;
+        white: string;
+        whiteAlpha: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        blackAlpha: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        gray: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        red: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        orange: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        yellow: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        green: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        teal: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        blue: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        cyan: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        purple: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        pink: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        linkedin: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        facebook: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        messenger: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        whatsapp: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        twitter: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+        telegram: {
+            50: string;
+            100: string;
+            200: string;
+            300: string;
+            400: string;
+            500: string;
+            600: string;
+            700: string;
+            800: string;
+            900: string;
+        };
+    };
+};
+export default theme;
+//# sourceMappingURL=index.d.ts.map

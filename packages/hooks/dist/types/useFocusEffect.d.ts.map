@@ -1,0 +1,1 @@
+{"version":3,"file":"useFocusEffect.d.ts","sourceRoot":"","sources":["../../src/useFocusEffect.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAA;AAIjC,oBAAY,qBAAqB,GAAG;IAClC,WAAW,EAAE,OAAO,CAAA;IACpB,aAAa,CAAC,EAAE,OAAO,CAAA;CACxB,CAAA;AACD;;;;;GAKG;AACH,wBAAgB,cAAc,CAAC,CAAC,SAAS,WAAW,EAClD,GAAG,EAAE,SAAS,CAAC,CAAC,CAAC,EACjB,OAAO,EAAE,qBAAqB,QAa/B"}
